@@ -12,7 +12,7 @@ public class MainMethod {
 	public static Map<String, String> config;
 
 	static {
-		config = PropertiesFileUtil.readProperties("config.properties");
+		config = PropertiesFileUtil.readProperties("resource/config.properties");
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
